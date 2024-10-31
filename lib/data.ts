@@ -59,7 +59,7 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "Mar 2023 - Dec 2023",
   },
-] as const;
+] as any;
 
 export const projectsData = [
   {
