@@ -2,9 +2,11 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import gethomeImg from "@/public/gethome.png";
+import allianceImg from "@/public/alliance.png";
+import sendyImg from "@/public/sendy.png";
+import bookingImg from "@/public/booking.png";
+import personalProjectImg from "@/public/personal-project.png";
 
 export const links = [
   {
@@ -35,73 +37,100 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Full-Stack Developer",
+    location: "Re:soft",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "I am Full-Stack Web/Mobile Developer at re:soft. I’ve created numerous user interfaces, and these experiences have further honed my ability to collaborate seamlessly with my teammates.\n",
+    icon: React.createElement(CgWorkAlt),
+    date: "Apr 2022 - Present (Tbilisi, Georgia)",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Alliance Loyalty",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I am currently working part-time and have developed the Alliance Group web project as a Next.js front-end developer, focusing on ensuring fast web performance.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Jan 2023 - Present",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+    location: "Gethome.ge",
+    description: "Worked on GetHome, a platform connecting users with their ideal homes. \n",
+    icon: React.createElement(CgWorkAlt),
+    date: "Mar 2023 - Dec 2023",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Gethome.ge",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "As a Full-Stack Developer, I worked on GetHome, a real estate platform that helps users find homes by browsing listings and filtering based on their needs.",
+    tags: ["Material UI", "Next.js", "Laravel", "Filament", "PostgreSQL"],
+    imageUrl: gethomeImg,
+    link: 'https://gethome.ge/'
   },
   {
-    title: "rmtDev",
+    title: "Ally.ge",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "\n" +
+        "As a Front-End Developer, I worked on a platform that allows users to explore and purchase Alliance apartments, manage expenses, and shop through an integrated marketplace.",
+    tags: ["Tailwind", "Next.js", "Redux", "Swiper", 'react-hook-form'],
+    imageUrl: allianceImg,
+    link: 'https://ally.ge/'
   },
   {
-    title: "Word Analytics",
+    title: "Sendy Project",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "\n" +
+        "As a Full-Stack Developer, I worked on Sendy, a platform like Mailchimp for managing email campaigns. It enables users to create, send, and track newsletters, featuring audience segmentation and analytics capabilities.",
+    tags: ["Next.js", "Laravel", "MySQL", "Filament"],
+    imageUrl: sendyImg,
+    link: '/',
+  },
+  {
+    title: "Book a Star Project",
+    description:
+        "\n" +
+        "As a Front-End Developer, I worked on a platform that allowed users to easily book celebrities for events like weddings and birthdays, simplifying the process of finding and securing stars for any occasion.",
+    tags: ["Parallax", "Next.js", "Typescript", "Tailwind"],
+    imageUrl: bookingImg,
+    link: '/',
+  },
+  {
+    title: "Personal Projects",
+    description:
+        "\n" +
+        "If you're interested in viewing my personal projects, feel free to click the link above!",
+    tags: ["Vue", "React", "Next.js", "PHP", "Laravel"],
+    imageUrl: personalProjectImg,
+    link: 'https://github.com/Dachi301',
   },
 ] as const;
 
 export const skillsData = [
   "HTML",
   "CSS",
+  "SASS",
+  "SCSS",
+  "Tailwind",
+  "Bootstrap",
+  "jQuery",
   "JavaScript",
   "TypeScript",
+  "Vue",
   "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
+  "Redux / Redux-toolkit",
+  "NextJS",
+  "PHP",
+  "Laravel",
+  "Laravel Inertia",
+  "Filament",
+  "MySQL",
   "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Firebase",
+  "Supabase",
+  "Git & Github",
+  "Figma",
+  "Webstorm",
 ] as const;
