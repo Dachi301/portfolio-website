@@ -19,7 +19,7 @@ export default function About() {
       >
         <SectionHeading>About me</SectionHeading>
         <p className="mb-3">
-          I’m a Full-Stack Developer with over 2 years of experience, focused on creating
+          I’m a Full-Stack Developer with over 3 years of experience, focused on creating
           <span className="font-medium"> user-friendly interfaces</span> and improving web performance.
           I’m passionate about web development and enjoy finding <span className="font-medium">smart solutions </span>
           to challenging problems. With <span className="italic">strong communication</span> and problem-solving skills,
