@@ -5,6 +5,7 @@ import allianceImg from "@/public/alliance.png";
 import sendyImg from "@/public/sendy.png";
 import bookingImg from "@/public/booking.png";
 import personalProjectImg from "@/public/personal-project.png";
+import onlyBrandsImg from '@/public/onlybrands-img.png'
 
 export const links = [
   {
@@ -78,10 +79,19 @@ export const projectsData = [
     link: 'https://ally.ge/'
   },
   {
+    title: "Onlybrands.ge",
+    description:
+        "\n" +
+        "As a Front-End Developer, I built an e-commerce site for popular brands using React and TypeScript, where users could browse products, add to cart, and place orders.",
+    tags: ["Tailwind", "React", "TypeScript", "Redux-Toolkit", "Swiper"],
+    imageUrl: onlyBrandsImg,
+    link: 'https://onlybrands.ge/'
+  },
+  {
     title: "Sendy Project",
     description:
       "\n" +
-        "As a Full-Stack Developer, I worked on Sendy, a platform like Mailchimp for managing email campaigns. It enables users to create, send, and track newsletters, featuring audience segmentation and analytics capabilities.",
+        "As a Full-Stack Developer, I worked on Sendy, a Mailchimp-like platform for creating, sending, and tracking email campaigns with segmentation and analytics.",
     tags: ["Next.js", "Laravel", "MySQL", "Filament"],
     imageUrl: sendyImg,
     link: '/',
